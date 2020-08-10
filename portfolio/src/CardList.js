@@ -8,7 +8,7 @@ const CardList = ({ robots }) => {
                 return (<Card 
                     key = {i} 
                     id={user.id} 
-                    name={user.name} 
+                    name={user.username} 
                     email = {user.email}
                 />)
             })}
