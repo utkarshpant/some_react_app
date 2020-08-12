@@ -2,16 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-// import Card from './Card';
-import CardList from './CardList'
+
 import * as serviceWorker from './serviceWorker';
-import 'tachyons';
-import { robots }  from './robots';
+// import 'tachyons';
+
 
 
 ReactDOM.render(
-	<App/>
-	, document.getElementById('root')
+	<App/>, 
+	document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

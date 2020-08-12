@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1 {
+    font-family: Karla;
+}
+
+.Projects {
+    font-family: Crimson Text;
+}
+
+#projects-column-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+footer {
+    font-family: Karla, sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+    width: 100vw;
+    margin-bottom: -50vh;
+    transition: background 1s ease;
+}
+
+footer:hover {
+    background: #093637;
+}
